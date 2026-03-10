@@ -14,5 +14,20 @@ t.pendown()
 t.goto(-270, 100)
 t.goto(-270, 60)
 
+# 오른쪽에 세로획 'ㅣ'를 그린다.
+t.penup()
+t.goto(-255, 100)
+t.pendown()
+t.goto(-255, 60)
+
+# 아래쪽에 네모 모양 'ㅁ'을 그린다.
+t.penup()
+t.goto(-295, 45)
+t.pendown()
+t.goto(-260, 45)
+t.goto(-260, 10)
+t.goto(-295, 10)
+t.goto(-295, 45)
+
 turtle.exitonclick()  # 창을 클릭하면 종료
 
