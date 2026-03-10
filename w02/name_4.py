@@ -16,7 +16,7 @@ import turtle
 import korean
 
 # 한글 자모를 그릴 때 사용할 기본 크기를 줄인다.
-korean.scale = 20
+korean.scale = 30
 
 # 그리기 과정을 빠르게 보기 위해 최고 속도로 설정한다.
 turtle.speed(0)
@@ -25,6 +25,15 @@ turtle.speed(0)
 korean.move_to(-300, 200)
 
 # 문자열을 완성형 한글 기준으로 분해하여 순서대로 그린다.
-korean.draw_ustr('김기용')
+korean.draw_ustr('김기용\n')
+
+# Unicode로 표현할 수 있는 모든 한글 글자인 11,172 자를 표현 가능하므로
+# 어떤 문자열이든 그릴 수 있다. 
+# 글자 사이에 줄바꿈 문자가 있으면 다음 줄로 넘어가서 그려진다.
+
+str = '가각안녕하세요\n이것은한글입니다\n김기용만세\n파이썬프로그래밍\n'
+str += '똜깕휎갃떥볞쒊둛걡꽖훯쏐킁코상\n'
+korean.draw_ustr(str)
 
 turtle.exitonclick()  # 창을 클릭하면 종료
+
