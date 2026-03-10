@@ -7,7 +7,7 @@ t.pensize(4) # 펜 두께를 4로 설정
 
 # 시작점으로 이동
 t.penup()
-t.backward(300)
+t.backward(400) # 시작점을 왼쪽으로 당겨 본다. 문제 없이 그려질 것이다.
 t.left(90)
 t.forward(100)
 t.right(90)  # 방향 0° (오른쪽)
