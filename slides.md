@@ -4,6 +4,15 @@
 
 ### Slides
 
+* 연산자 우선순위
+   * 두뇌풀가동 meme
+* 복합 대입연산자
+   * = Compound Assignment Operators
+* 관계연산자와 논리연산자 결과의 type 은?
+   * `bool`
+* Bitwise Operators
+   * `&`, `|`, `^`, `~`, `<<`, `>>`
+
 ### Homework. 4주차 실습: 연산자
 1. 가격과 할인율 을 입력하면 할인 금액과 최종 가격을 출력하는 프로그램을 작성한다.
     * `input()` 을 이용해 두 숫자를 입력받음
