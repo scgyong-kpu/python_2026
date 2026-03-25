@@ -68,6 +68,9 @@
 * 조건식
   * python 에서 `조건식` 이란?
   * 비교 연산자 (`==`, `!=`, `>`, `<`, `>=`, `<=`) / 논리 연산자 (`and`, `or`, `not`) 와 `if` 의 관계
+* `match` - `case` 사용법
+* Conditional Expression 사용법
+  * 변수 = 참일때값 `if` 조건 `else` 거짓일때값
 
 ## 2026-03-17 Homework
 
